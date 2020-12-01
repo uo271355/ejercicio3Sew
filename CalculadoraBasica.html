@@ -1,0 +1,52 @@
+<!DOCTYPE  html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora básica</title>
+<link rel="stylesheet" href="CalculadoraBasica.css">
+<script src="CalculadoraBasica.js"></script>
+</head>
+<body>
+
+<h1>Calculadora básica</h1>
+<section>
+<h2>Calculadora</h2>
+<label for="resultado">|</label>
+<input type="text" id="resultado" disabled>
+<br>
+<button  value="mrc" id="mrc" onclick="calculadora.mrc()">mrc</button>
+<button  value="m-" id="m-" onclick="calculadora.mMenos()">m-</button>
+<button  value="m+" id="m+" onclick="calculadora.mMas()">m+</button>
+<button  value="/" id="/" onclick="calculadora.division()">/</button>
+<br>
+<button  value="7" id="7" onclick="calculadora.digitos(7)">7</button>
+<button  value="8" id="8" onclick="calculadora.digitos(8)">8</button>
+<button  value="9" id="9" onclick="calculadora.digitos(9)">9</button>
+<button  value="*" id="*" onclick="calculadora.multiplicacion()">*</button>
+<br>
+<button  value="4" id="4" onclick="calculadora.digitos(4)">4</button>
+<button  value="5" id="5" onclick="calculadora.digitos(5)">5</button>
+<button  value="6" id="6" onclick="calculadora.digitos(6)">6</button>
+<button  value="-" id="-" onclick="calculadora.resta()">-</button>
+<br>
+<button  value="1" id="1" onclick="calculadora.digitos(1)">1</button>
+<button  value="2" id="2" onclick="calculadora.digitos(2)">2</button>
+<button  value="3" id="3" onclick="calculadora.digitos(3)">3</button>
+<button  value="+" id="+" onclick="calculadora.suma()">+</button>
+<br>
+<button  value="0" id="0" onclick="calculadora.digitos(0)">0</button>
+<button  value="." id="." onclick="calculadora.puntos()">.</button>
+<button  value="C" id="C" onclick="calculadora.borrar()">C</button>
+<button  value="=" id="=" onclick="calculadora.igual()">=</button>
+</section>
+<br>
+<footer>
+<a href="http://validator.w3.org/check/referer" hreflang="en-us">
+<img src="valid-html5-button.png" alt="¡HTML5 valido!" height="31" width="88">
+</a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Valido!">
+</a>
+</footer>
+</body>
+</html>
